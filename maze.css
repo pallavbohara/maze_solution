@@ -1,0 +1,15 @@
+table { border-collapse: collapse }
+td { padding: 0; border: 1px solid grey; text-align: center }
+
+#game { margin-right: 10px; float: left }
+#game table td { border-width: 0px; }
+#game table tr:first-child, #game table tr:last-child { height: 6px }
+#game table tr:nth-child(2) { height: 12px }
+#game table td:first-child, #game table td:last-child { width: 6px }
+#game table td:nth-child(2) { width: 12px }
+
+#game .black { background: black }
+
+button { margin-right: 10px }
+
+body { margin: 0 }
